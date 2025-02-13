@@ -5,7 +5,7 @@ import { TailorStatus } from "@/components/dashboard/TailorStatus";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-indigo-950 p-8 transition-all duration-500">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-indigo-950 p-6 transition-all duration-500">
       <div className="mb-8 animate-fade-in">
         <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400">
           Dashboard
@@ -28,4 +28,3 @@ const Index = () => {
 };
 
 export default Index;
-
