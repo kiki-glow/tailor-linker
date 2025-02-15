@@ -13,7 +13,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/components/ui/use-toast";
-import { LogIn } from "lucide-react";
+import { UserRound } from "lucide-react";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -34,7 +34,7 @@ const Login = () => {
       <Card className="w-full max-w-md shadow-xl dark:shadow-purple-900/20 animate-fade-in">
         <CardHeader className="space-y-1 flex flex-col items-center">
           <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full flex items-center justify-center mb-4 shadow-lg animate-scale-in">
-            <LogIn className="w-8 h-8 text-white" />
+            <UserRound className="w-8 h-8 text-white" />
           </div>
           <CardTitle className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
             Welcome back
